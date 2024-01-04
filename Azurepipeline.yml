@@ -1,9 +1,8 @@
 #yet ant makup language
 trigger:
 - main
-vmImageName: ubuntu-latest
 pool:
-  vmImage: $(vmImageName)
+  vmImage: ubuntu-latest
 stages:
 - stage:
   jobs:
