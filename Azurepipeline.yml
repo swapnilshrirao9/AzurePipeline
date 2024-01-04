@@ -1,0 +1,11 @@
+#yet ant makup language
+trigger:
+- main
+vmImageName: ubuntu
+pool:
+  vmImage: $(vmImagename)
+jobs:
+- job:
+  steps:
+  - script:  echo "Hello , Swapnil"
+#  - task:
