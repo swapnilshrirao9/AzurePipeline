@@ -5,9 +5,9 @@ vmImageName: ubuntu-latest
 pool:
   vmImage: $(vmImagename)
 stages:
-- stage: build
+- stage:
   jobs:
   - job:
-    step:
-    - script:  echo "Hello , Swapnil"
+    steps:
+    - script: echo "Hello , Swapnil"
 #  - task:
