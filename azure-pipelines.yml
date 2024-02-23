@@ -1,8 +1,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: 'jenkins'
+pool: Default
 jobs:
 - job: HelloWorld
   steps:
