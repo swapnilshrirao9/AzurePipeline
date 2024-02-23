@@ -1,12 +1,11 @@
-#yet ant makup language
 trigger:
 - main
+
 pool:
-  vmImage: ubuntu-latest
-stages:
-- stage:
-  jobs:
-  - job:
-    steps:
-    - script: echo "Hello , Swapnil"
-#  - task:
+  vmImage: 'ubuntu-latest'
+
+jobs:
+- job: HelloWorld
+  steps:
+  - script: echo 'Hello, World!'
+    displayName: 'Print Hello World'
