@@ -2,8 +2,7 @@ trigger:
 - main
 
 pool: Default
-jobs:
-- job: HelloWorld
-  steps:
-  - script: echo 'Hello, World!'
-    displayName: 'Print Hello World'
+steps:
+  - script: |
+      echo "hello world"
+    displayName: 'Echo Hello World'
