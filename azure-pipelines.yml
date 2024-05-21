@@ -5,4 +5,5 @@ pool: Default
 steps:
   - script: |
       echo "hello world"
+      mkdir Mydisk
     displayName: 'Echo Hello World'
